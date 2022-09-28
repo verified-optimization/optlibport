@@ -4,7 +4,7 @@ open Lake DSL System
 -- Usually the `tag` will be of the form `nightly-2021-11-22`.
 -- If you would like to use an artifact from a PR build,
 -- it will be of the form `pr-branchname-sha`.
-def tag : String := "pr-optlib-fcc4d34"
+def tag : String := "nightly-2022-09-28"
 def releaseRepo : String := "abentkamp/mathport"
 def oleanTarName : String := "optlib-binport.tar.gz"
 
