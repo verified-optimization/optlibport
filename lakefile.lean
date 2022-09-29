@@ -5,7 +5,7 @@ open Lake DSL System
 -- If you would like to use an artifact from a PR build,
 -- it will be of the form `pr-branchname-sha`.
 def tag : String := "nightly-2022-09-28"
-def releaseRepo : String := "abentkamp/mathport"
+def releaseRepo : String := "verified-optimization/mathport-optlib"
 def oleanTarName : String := "optlib-binport.tar.gz"
 
 def download (url : String) (to : FilePath) : BuildM PUnit := Lake.proc
