@@ -40,6 +40,7 @@ target fetchOleans (_pkg : Package) : Unit := do
 
 require mathlib3port from git "https://github.com/leanprover-community/mathlib3port.git"@"0ef9b6d2572e49c015c955be6c551ba5d6894fe6"
 
+@[default_target]
 lean_lib Optbin where
   roots := #[]
   globs := #[`Optbin]
